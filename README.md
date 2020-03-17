@@ -1,0 +1,1 @@
+# adserver-provider-template
