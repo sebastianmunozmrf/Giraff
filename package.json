@@ -1,0 +1,32 @@
+{
+	"name": "@marfeel/adserver-providers-giraff",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.es2015.js",
+	"author": "Marfeel",
+	"license": "ISC",
+	"scripts": {},
+	"devDependencies": {
+		"@marfeel/adserver-providers-cli": "^1.0.2-snapshot"
+	},
+	"eslintConfig": {
+		"extends": [
+			"@marfeel/eslint-config-js",
+			"@marfeel/eslint-config-jest"
+		],
+		"env": {
+			"node": true
+		}
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@github.com:Marfeel/marfeel-releases.git"
+	},
+	"files": [
+		"dist/*.js",
+		"schema/*.json"
+	]
+}
